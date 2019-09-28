@@ -41,7 +41,7 @@ html {
 
 .myLinks {
   color: rgb(167, 242, 245) !important;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .myThumbnails {

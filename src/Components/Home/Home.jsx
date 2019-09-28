@@ -20,7 +20,7 @@ class Home extends Component {
                     <Grid item xs={12} className="myTile">
                         <Typography variant="h3" className="subHeader">About</Typography>
                         <Typography className="myContent">My journey into web development began in 2016 when I attended an HTML & CSS workshop at Prime Academy. Three years later, I began to pursue a career in software engineering. It's the perfect arena for me to do what I love professionally (process improvement and data visualization) and personally (aesthetics and empathy).</Typography>
-                        <Typography className="myContent">When I'm not coding, you can probably find me either playing an RPG or making something for my next RenFest costume.</Typography>
+                        <Typography className="myContent">When I'm not coding, you will likely find me either playing an RPG or making something for my next RenFest costume.</Typography>
                     </Grid>
                     <Grid item xs={12} sm={6} md={4} className="myTile">
                         <Typography variant="h3" className="subHeader">Values</Typography>
