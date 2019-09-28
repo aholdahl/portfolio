@@ -1,0 +1,43 @@
+html {
+    background-color: cadetblue;
+}
+.App {
+  text-align: center;
+  /* padding: 30px; */
+}
+
+.myHeader {
+  background-color: #ededed;
+  color: #332e37;
+  margin: 30px;
+  padding: 10px;
+}
+
+.myDeclaration {
+  align-self: center;
+}
+
+.myHeadshot {
+  max-height: 200px;
+}
+
+.myTile {
+  /* border: 1px solid white; */
+  margin: 10px;
+  color: #ededed;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+.subHeader {
+  background-color: rgba(255, 255, 255, 0.589);
+  color: darkslategrey;
+  padding: 5px;
+}
+
+.myContent {
+  padding: 10px;
+}
+
+.myLinks {
+  color: rgb(167, 242, 245) !important;
+}
