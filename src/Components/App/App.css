@@ -31,13 +31,19 @@ html {
 .subHeader {
   background-color: rgba(255, 255, 255, 0.589);
   color: darkslategrey;
-  padding: 5px;
+  padding: 10px;
 }
 
 .myContent {
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px !important;
 }
 
 .myLinks {
   color: rgb(167, 242, 245) !important;
+  text-decoration: underline;
+}
+
+.myThumbnails {
+  max-width: 90%;
 }
