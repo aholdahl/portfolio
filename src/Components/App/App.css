@@ -1,9 +1,8 @@
 html {
-    background-color: cadetblue;
+  background-color: cadetblue;
 }
 .App {
   text-align: center;
-  /* padding: 30px; */
 }
 
 .myHeader {
@@ -11,10 +10,12 @@ html {
   color: #332e37;
   margin: 30px;
   padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.356);
 }
 
 .myDeclaration {
   align-self: center;
+  font-variant: small-caps;
 }
 
 .myHeadshot {
@@ -22,7 +23,6 @@ html {
 }
 
 .myTile {
-  /* border: 1px solid white; */
   margin: 10px;
   color: #ededed;
   background-color: rgba(0, 0, 0, 0.356);

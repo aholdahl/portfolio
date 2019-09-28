@@ -7,30 +7,28 @@ class Home extends Component {
         return (
             <Grid container spacing={2}>
                 <Grid container className="myHeader">
-                    <Grid item xs={3}>
+                    <Grid item xs={12} sm={2} >
                         <img className="myHeadshot" src={Headshot} />
                     </Grid>
-                    <Grid item xs={9} className="myDeclaration">
+                    <Grid item xs={12} sm={10} className="myDeclaration">
                         <Typography variant="h1">Allyson Holdahl</Typography>
                         <Typography variant="h3">Software Engineer</Typography>
                     </Grid>
                 </Grid>
                 <Grid container spacing={2}>
-                    <Grid item xs={12} className="myTile">
+                    <Grid item xs={12} lg={6} className="myTile">
                         <Typography variant="h3" className="subHeader">About</Typography>
                         <Typography className="myContent">Allyson is queen of the lizard people.</Typography>
                     </Grid>
-                    <Grid item xs={6} className="myTile">
+                    <Grid item xs={12} sm={6} md={4} lg={6} className="myTile">
                         <Typography variant="h3" className="subHeader">Values</Typography>
                         <Typography className="myContent">Integrity - Diversity - Efficiency - Sustainability</Typography>
                     </Grid>
-                    <Grid item xs={6} className="myTile">
+                    <Grid item xs={12} sm={6} md={4} lg={6} className="myTile">
                         <Typography variant="h3" className="subHeader">Skills</Typography>
                         <Typography className="myContent">HTML - CSS - Javascript - JQuery - React - Redux - Java - PostgreSQL</Typography>
                     </Grid>
-                {/* </Grid>
-                <Grid container spacing={2}> */}
-                    <Grid item xs={6} className="myTile">
+                    <Grid item xs={12} sm={6} md={4} lg={6} className="myTile">
                         <Typography variant="h3" className="subHeader">Social Media</Typography>
                         <Typography className="myContent">
                         <Link href="allyson.holdahl@gmail.com" className="myLinks">Email</Link>
@@ -40,7 +38,7 @@ class Home extends Component {
                         <Link href="https://github.com/aholdahl" className="myLinks">Github</Link>
                         </Typography>
                     </Grid>
-                    <Grid item xs={6} className="myTile">
+                    <Grid item xs={12} sm={6} md={12} className="myTile">
                         <Typography variant="h3" className="subHeader">Deployed Projects</Typography>
                         <Typography className="myContent">Coming Soon!</Typography>
                     </Grid>
