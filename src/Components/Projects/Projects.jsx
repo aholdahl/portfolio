@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Grid, Typography, Link } from '@material-ui/core';
-import venndLogo from '../../Vennd-Logo.jpg';
+// import venndLogo from '../../Vennd-Logo.jpg';
+import vennd from '../../Vennd-Screenshot.png';
 import movieSaga from '../../Movie-Saga-Screenshot.png';
 import javaHotel from '../../Java-Hotel-Screenshot.png';
 
@@ -15,7 +16,7 @@ class Projects extends Component {
                     {/* <embed src="https://github.com/aholdahl/vennd-directory" width="600" height="400"/> */}
                     {/* <img src="https://github.com/aholdahl/vennd-directory"/> */}
                     {/* <div src="https://github.com/aholdahl/vennd-directory" style="background-image:url(https://github.com/aholdahl/vennd-directory)"></div> */}
-                    <img className="myThumbnails myContent" src={venndLogo}/>
+                    <img className="myThumbnails myContent" src={vennd}/>
                 </Grid>
                 <Grid item xs={12} md={6} lg={4}>
                     <Typography variant="h6" className="myContent"><Link className="myLinks" src="https://github.com/aholdahl/movie-sagas">Movie Saga Cinema</Link></Typography>
