@@ -9,7 +9,7 @@ class Home extends Component {
             <Grid container spacing={2}>
                 <Grid container className="myHeader">
                     <Grid item xs={12} md={2} >
-                        <img className="myHeadshot" src={Headshot} />
+                        <img className="myHeadshot" src={Headshot} alt="my headshot"/>
                     </Grid>
                     <Grid item xs={12} md={10} className="myDeclaration">
                         <Typography variant="h1">Allyson Holdahl</Typography>
