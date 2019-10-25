@@ -40,8 +40,11 @@ html {
 }
 
 .myLinks {
-  color: rgb(167, 242, 245) !important;
-  /* text-decoration: underline; */
+  /* background-color: rgb(167, 242, 245) !important; */
+  color: #ededed !important;
+  background-color: rgba(0, 0, 0, 0.356) !important;
+  display: inline-block;
+  padding: 10px;
 }
 
 .myThumbnails {

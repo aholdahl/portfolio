@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Typography, Link } from '@material-ui/core';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
 import Headshot from '../../Headshot.jpg';
 import Projects from '../Projects/Projects.jsx';
 
@@ -9,7 +12,7 @@ class Home extends Component {
             <Grid container spacing={2}>
                 <Grid container className="myHeader">
                     <Grid item xs={12} md={2} >
-                        <img className="myHeadshot" src={Headshot} alt="my headshot"/>
+                        <img className="myHeadshot" src={Headshot} alt="my headshot" />
                     </Grid>
                     <Grid item xs={12} md={10} className="myDeclaration">
                         <Typography variant="h1">Allyson Holdahl</Typography>
@@ -32,19 +35,32 @@ class Home extends Component {
                         <Typography className="myContent">Redux Sagas - Ajax - Axios - Node - NPM - Express - PG - Gradle - Spring Boot - JDBC</Typography>
                         <Typography className="myContent">RESTful - Agile - Universal Design</Typography>
                     </Grid>
-                    <Grid item xs={12} sm={6} md={4} className="myTile">
-                        <Typography variant="h4" className="subHeader">Social Media</Typography>
-                        <Typography className="myContent myLinks">
-                        <Link href="allyson.holdahl@gmail.com" className="myLinks">Email</Link>
-                        <> - </>
-                        <Link href="https://www.linkedin.com/in/allyson-holdahl/" className="myLinks">LinkedIn</Link>
-                        <> - </>
-                        <Link href="https://github.com/aholdahl" className="myLinks">Github</Link>
-                        </Typography>
+                    <Grid item xs={12} sm={6} md={4} className="myTile" container justify="space-around">
+                        <Grid item xs={12}>
+                            <Typography variant="h4" className="subHeader">Social Media</Typography>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Link href="allyson.holdahl@gmail.com" className="myLinks">
+                                <EmailRoundedIcon fontSize="large" />
+                                <Typography>Email</Typography>
+                            </Link>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Link href="https://www.linkedin.com/in/allyson-holdahl/" className="myLinks">
+                                <LinkedInIcon fontSize="large" />
+                                <Typography>LinkedIn</Typography>
+                            </Link>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <Link href="https://github.com/aholdahl" className="myLinks">
+                                <GitHubIcon fontSize="large" />
+                                <Typography>Github</Typography>
+                            </Link>
+                        </Grid>
                     </Grid>
                     <Grid item xs={12} sm={6} md={12} className="myTile">
                         <Typography variant="h4" className="subHeader">Projects</Typography>
-                        <Projects/>
+                        <Projects />
                     </Grid>
                 </Grid>
             </Grid>
