@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.eb472a58.chunk.css",
+    "main.js": "/portfolio/static/js/main.96690f94.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.96690f94.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.13b9a42c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.13b9a42c.js.map",
+    "static/css/2.15c52e38.chunk.css": "/portfolio/static/css/2.15c52e38.chunk.css",
+    "static/js/2.c5ab7aea.chunk.js": "/portfolio/static/js/2.c5ab7aea.chunk.js",
+    "static/js/2.c5ab7aea.chunk.js.map": "/portfolio/static/js/2.c5ab7aea.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.78f8377a0cdba2018cb2c1c7180d96ae.js": "/portfolio/precache-manifest.78f8377a0cdba2018cb2c1c7180d96ae.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.15c52e38.chunk.css.map": "/portfolio/static/css/2.15c52e38.chunk.css.map",
+    "static/css/main.eb472a58.chunk.css.map": "/portfolio/static/css/main.eb472a58.chunk.css.map",
+    "static/media/Headshot.jpg": "/portfolio/static/media/Headshot.ceecbf6e.jpg",
+    "static/media/Java-Hotel-Screenshot.png": "/portfolio/static/media/Java-Hotel-Screenshot.f6f3f241.png",
+    "static/media/Movie-Saga-Screenshot.png": "/portfolio/static/media/Movie-Saga-Screenshot.2733ec08.png",
+    "static/media/SkillSense-Screenshot.jpg": "/portfolio/static/media/SkillSense-Screenshot.631520df.jpg",
+    "static/media/Vennd-Screenshot.png": "/portfolio/static/media/Vennd-Screenshot.96f1e208.png",
+    "static/media/index.css": "/portfolio/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  }
+}
