@@ -16,12 +16,12 @@ class Projects extends Component {
                     <Typography variant="h6" className="myContent">Venn'd Directory</Typography>
                     <Link className="myLinks" src="http://vennd-directory.herokuapp.com/#/home">Live</Link>
                     <Link className="myLinks" src="https://github.com/aholdahl/vennd-directory">Github</Link>
+                    <img className="myThumbnails myContent" src={vennd} alt="screenshot from Vennd app" />
                     {/* Trying to tap into the github repo social preview */}
                     {/* <iframe id="ytplayer" type="text/html" title="Vennd Directory" width="375" height="210" src="https://github.com/aholdahl/vennd-directory"></iframe> */}
                     {/* <embed src="https://github.com/aholdahl/vennd-directory" width="600" height="400"/> */}
                     {/* <img src="https://github.com/aholdahl/vennd-directory"/> */}
                     {/* <div src="https://github.com/aholdahl/vennd-directory" style="background-image:url(https://github.com/aholdahl/vennd-directory)"></div> */}
-                    <img className="myThumbnails myContent" src={vennd} alt="screenshot from Vennd app"/>
                 </Grid>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
                     <Typography variant="h6" className="myContent">SkillSense</Typography>
