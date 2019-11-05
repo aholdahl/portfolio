@@ -5,8 +5,8 @@ import vennd from '../../Vennd-Screenshot.png';
 import movieSaga from '../../Movie-Saga-Screenshot.png';
 import javaHotel from '../../Java-Hotel-Screenshot.png';
 import skillSense from '../../SkillSense-Screenshot.jpg';
-import reactCalculator from '../../React-Calc-Screenshot.jpg';
-import jqueryCalculator from '../../JQuery-Calc-Screenshot.jpg';
+import reactCalculator from '../../React-Calc-Screenshot.png';
+import jqueryCalculator from '../../JQuery-Calc-Screenshot.png';
 
 class Projects extends Component {
     render (){
@@ -42,11 +42,13 @@ class Projects extends Component {
                     <img className="myThumbnails myContent" src={jqueryCalculator} alt="screenshot from JQuery Calculator app" />
                 </Grid>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
-                    <Typography variant="h6" className="myContent"><Link className="myLinks" src="https://github.com/aholdahl/movie-sagas">Movie Saga Cinema</Link></Typography>
+                    <Typography variant="h6" className="myContent">Movie Saga Cinema</Typography>
+                    <Link className="myLinks" src="https://github.com/aholdahl/movie-sagas">Github</Link>
                     <img className="myThumbnails myContent" src={movieSaga} alt="screenshot from Movie Saga app"/>
                 </Grid>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
-                    <Typography variant="h6" className="myContent"><Link className="myLinks" src="https://github.com/aholdahl/pet-hotel-server/settings">Java Pet Hotel</Link></Typography>
+                    <Typography variant="h6" className="myContent">Java Pet Hotel</Typography>
+                    <Link className="myLinks" src="https://github.com/aholdahl/pet-hotel-server/settings">Github</Link>
                     <img className="myThumbnails myContent" src={javaHotel} alt="screenshot from Java Hotel app"/>
                 </Grid>
             </Grid>

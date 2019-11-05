@@ -47,6 +47,10 @@ html {
   padding: 10px;
 }
 
+.myLinks:hover {
+  color: rgb(167, 242, 245) !important;
+}
+
 .myThumbnails {
   max-width: 90%;
 }
