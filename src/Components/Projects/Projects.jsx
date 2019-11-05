@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Grid, Typography, Link } from '@material-ui/core';
 // import venndLogo from '../../Vennd-Logo.jpg';
 import vennd from '../../Vennd-Screenshot.png';
@@ -9,7 +9,7 @@ import reactCalculator from '../../React-Calc-Screenshot.png';
 import jqueryCalculator from '../../JQuery-Calc-Screenshot.png';
 
 class Projects extends Component {
-    render (){
+    render() {
         return (
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
@@ -39,17 +39,18 @@ class Projects extends Component {
                     <Typography variant="h6" className="myContent">JQuery Calculator</Typography>
                     <Link className="myLinks" src="https://morning-retreat-92709.herokuapp.com/">Live</Link>
                     <Link className="myLinks" src="https://github.com/aholdahl/jquery-server-side-calculator">Github</Link>
+                    <br />
                     <img className="myThumbnails myContent" src={jqueryCalculator} alt="screenshot from JQuery Calculator app" />
                 </Grid>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
                     <Typography variant="h6" className="myContent">Movie Saga Cinema</Typography>
                     <Link className="myLinks" src="https://github.com/aholdahl/movie-sagas">Github</Link>
-                    <img className="myThumbnails myContent" src={movieSaga} alt="screenshot from Movie Saga app"/>
+                    <img className="myThumbnails myContent" src={movieSaga} alt="screenshot from Movie Saga app" />
                 </Grid>
                 <Grid item xs={12} md={6} lg={4} xl={3}>
                     <Typography variant="h6" className="myContent">Java Pet Hotel</Typography>
                     <Link className="myLinks" src="https://github.com/aholdahl/pet-hotel-server/settings">Github</Link>
-                    <img className="myThumbnails myContent" src={javaHotel} alt="screenshot from Java Hotel app"/>
+                    <img className="myThumbnails myContent" src={javaHotel} alt="screenshot from Java Hotel app" />
                 </Grid>
             </Grid>
         )
